@@ -1,8 +1,5 @@
-#!/bin/bash -e
-(
+#!/bin/bash 
 	echo "INFO: Executing installation script!"
-	sh build/docker.sh
-)
 
 # Verify that we can at least get version output
 if ! docker --version; then

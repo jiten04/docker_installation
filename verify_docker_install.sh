@@ -1,7 +1,7 @@
 #!/bin/bash -e
 (
 	echo "INFO: Executing installation script!"
-	sh build/install.sh
+	sh build/docker.sh
 )
 
 # Verify that we can at least get version output
